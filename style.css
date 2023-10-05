@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link,.navi{
+    color: white !important;
+    font-size:  large !important;
+    font-weight: bold !important;
+}
+/* nav for centre */
+.nav-link{
+    margin: 10px !;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+
+}
+a:hover{
+    border-bottom: dotted white;
+    border-radius: 10px;
+}
+.navbar-collapse{
+    margin-left: 100px;
+}
+.active{
+    border-bottom: dotted white !important;
+    border-radius: 10px;
+}
+/* corousel height */
+.h{
+    height: 80vh;
+}
+
+/* About section */
+.hs{
+    text-decoration: underline;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+.s{
+    text-decoration: none;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+    border: 2px white solid;
+    background-color: whitesmoke;
+}
+/* Courses */
+.c{
+    text-decoration: underline;
+}
+.b{
+    background-color: rgb(217, 227, 231);
+}
+.q{
+    box-shadow: 10px 12px 10px rgb(223, 126, 126) ;
+}
+@media (max-width:450px){
+    iframe{
+        width: 350px;
+    }
+}
